@@ -1,60 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/estilo.css" >
+    <link rel="stylesheet" href="./styles/estilo.css">
     <link rel="icon" href="../SlackLineWeb/img/slackLineIcono.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/styleBootstrap.css">
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital@1&display=swap" rel="stylesheet">
-    
+
     <title>S l a c k L i f e</title>
 </head>
 
 
 <body>
-    
-    <h1 class="tituloH1Index">SlackLine</h1>    
-              <h2>PRUEBA MODIFACION RAMA</h2>     
-                <div>
-                    <nav class="menuNav">
-                        <img src="../SlackLineWeb/img/slackLineIcono.png" class="menuNavLogo"></img>
-                        <a href="./index.html" class="navEnlace" id="logo">Inicio</a> 
-                        <a href="../SlackLineWeb/pages/colocarSlackLine.html" class="navEnlace">Colocar SlackLine</a>
-                        <a href="./pages/tiposDeSlacklines.html" class="navEnlace">Tipos de Slacklines</a> 
-                        <a href="./pages/galeria.html" class="navEnlace">Galeria</a> 
-                        <a href="./pages/contacto.html" class="navEnlace">Contacto</a>   
-                        <img src="../SlackLineWeb/img/slackLineIcono.png" class="menuNavLogo"></img>                      
-                    </nav>
-                </div>
-                
-            
-        
-        <section class="imagenesIndex">
-            <img src="./img/inicio3.jpg" class="indexImg1"></img>
-            <img src="./img/inicio2.jpg" class="indexImg2"></img>
-        </section>
-            
-                <section class="textoIndex">
-                    <h2>¿Que es el SlackLine?</h2>
-                    El slackline es un deporte de equilibrio en el que se utiliza una cinta plana normalmente de nylon o poliéster
-                    (conocida en el mundo del slackline como "línea"), sujeta entre dos puntos fijos, generalmente árboles.
 
-                    <h2>¿Cuál es el origen del slackline?</h2>
-                    El slackline tiene su origen a una pareja de escaladores (Adán Grosowsky y Jeff Ellington) del Valle de Yosemite
-                    en California, a principios de los años 80' que empezaron a practicarlo utilizando las cadenas y cables cercanos
-                    a los aparcamientos como forma de entretenimiento. Con el tiempo progresaron y empezaron a utilizar sus equipos
-                    de escalada. El deporte empezó a cobrar fama y expandirse mundialmente dando paso a lo que conocemos como
-                    slackline.
-                </section>
-            
-   
+    <h1 class="tituloH1Index">SlackLine</h1>
+
+
+  
+   <header>
+    <nav class="navbar navegacion navbar-expand-lg  ">
+        <div class="container-fluid">
+          <a class="navbar-brand" >Menu |</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-sm-evenly" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link" href="./pages/colocarSlackLine.html">Colocar SlackLine</a>
+              <a class="nav-link" href="./pages/tiposDeSlacklines.html">Tipos de SlackLine</a>
+              <a class="nav-link" href="./pages/galeria.html">Galeria</a>
+              <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+   </header>
+
+    <section class="imagenesIndex">
+        <img src="./img/inicio3.jpg" class="indexImg1"></img>
+        <img src="./img/inicio2.jpg" class="indexImg2"></img>
+    </section>
+
+    <section class="textoIndex">
+        <h2>¿Que es el SlackLine?</h2>
+        El slackline es un deporte de equilibrio en el que se utiliza una cinta plana normalmente de nylon o poliéster
+        (conocida en el mundo del slackline como "línea"), sujeta entre dos puntos fijos, generalmente árboles.
+
+        <h2>¿Cuál es el origen del slackline?</h2>
+        El slackline tiene su origen a una pareja de escaladores (Adán Grosowsky y Jeff Ellington) del Valle de Yosemite
+        en California, a principios de los años 80' que empezaron a practicarlo utilizando las cadenas y cables cercanos
+        a los aparcamientos como forma de entretenimiento. Con el tiempo progresaron y empezaron a utilizar sus equipos
+        de escalada. El deporte empezó a cobrar fama y expandirse mundialmente dando paso a lo que conocemos como
+        slackline.
+    </section>
+
+
     <footer class="footer">
-            <a href="#logo"><img src="../SlackLineWeb/img/slackLineIcono.png" class="footerLogo"></img></a>
-            <div class="footerCopyRights">© 2022 Hernan Aguado, todos los derechos reservados</div>
+        <a href="#logo"><img src="../SlackLineWeb/img/slackLineIcono.png" class="footerLogo"></img></a>
+        <div class="footerCopyRights">© 2022 Hernan Aguado, todos los derechos reservados</div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
+
 </html>
 

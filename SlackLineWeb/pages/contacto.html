@@ -5,28 +5,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/estilo.css" >
-    <link rel="icon" href="../SlackLineWeb/img/slackLineIcono.png">
+    <link rel="stylesheet" href="../styles/estilo.css">
+    <link rel="icon" href="../img/slackLineIcono.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/styleBootstrap.css">
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital@1&display=swap" rel="stylesheet">
     <title>S l a c k L i f e </title>
 </head>
 <link rel="icon" href="https://media.istockphoto.com/vectors/slackline-icon-vector-id665467256?s=612x612">
 
 <body>
+    <h1 class="tituloH1Index">Contacto</h1>
+
     <header>
-        <div class="padre">
-            <h1 class="tituloH1Index">Contacto</h1>
-            <nav class="menuNav">
-                <img src="../img/slackLineIcono.png" class="menuNavLogo"></img>
-                <a href="../index.html" class="navEnlace" id="logo">Inicio</a> 
-                <a href="./colocarSlackLine.html" class="navEnlace">Colocar SlackLine</a>
-                <a href="./tiposDeSlacklines.html" class="navEnlace">Tipos de Slacklines</a> 
-                <a href="./galeria.html" class="navEnlace">Galeria</a> 
-                <a href="./contacto.html" class="navEnlace">Contacto</a>   
-                <img src="../img/slackLineIcono.png" class="menuNavLogo"></img>                   
-            </nav>
+        <nav class="navbar navegacion navbar-expand-lg  ">
+            <div class="container-fluid">
+              <a class="navbar-brand" >Menu |</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-sm-evenly" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="../index.html" >Inicio</a>
+                  <a class="nav-link" href="./colocarSlackLine.html">Colocar SlackLine</a>
+                  <a class="nav-link" href="./tiposDeSlacklines.html">Tipos de SlackLine</a>
+                  <a class="nav-link" href="./galeria.html">Galeria</a>
+                  <a class="nav-link" href="#">Contacto</a>   
+                </div>
+              </div>
+            </div>
+          </nav>
+       </header>
                 
 
                 <section class="padreContacto">
@@ -59,16 +71,17 @@
                                     <input type="submit" value="Enviar :)" id="userSub">
                                 </div>
                         </form>           
-                                                       
+                    </section>                      
                     <section class="slackLifeIcono">
                         <img src="../img/slackLife.jpg" alt="slackLifeIcono" title="slackLife" >
                      </section>
 
 
-    </header>
+    
     <footer class="footer">
         <a href="#logo"><img src="../img/slackLineIcono.png" class="footerLogo"></img></a>
         <div class="footerCopyRights">© 2022 Hernan Aguado, todos los derechos reservados</div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

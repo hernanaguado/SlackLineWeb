@@ -1,0 +1,32 @@
+.navegacion {
+    display: flex;
+    flex-flow: nowrap;    
+    background-color: rgba(85, 181, 213, 0.228);
+    justify-content: space-around;
+    border: solid rgb(147, 224, 250);
+    margin: 25px;
+    padding: 10px 5px;
+    font-weight:900;
+    align-items: center;
+    box-shadow: 20px 20px 20px 0 black; 
+}
+
+.nav-link{
+    border-radius: 10%;
+    background-color: rgba(37, 118, 138, 0.29);
+    margin-left: 45px;
+    box-shadow: 10px 10px 20px 2px black;
+}
+.w-100 {
+    width: 100%!important;
+    height: 800px!important;
+}
+
+@media (min-width: 576px) {
+    .nav-link{
+        margin: 10px;
+        text-align: center;
+        
+    }
+
+}
